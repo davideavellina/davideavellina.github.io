@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+
+}
+
+.menu > li {
+    display: inline;
+    margin-right: 50px;
+    border-left: 1px solid gray;
+    padding-left: 40px;
+}
+
+  .menu > li:first-of-type {
+    margin-left: 100px;
+  }
+
+
