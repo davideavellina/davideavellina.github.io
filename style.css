@@ -11,6 +11,10 @@ header {
     font-family: 'Cinzel Decorative', cursive;
     background-color:goldenrod;
     height: 80px;    
+    position: fixed;
+    left: 0px;
+    right: 0px;
+    top: 0px;
   } 
 
 .menu > li {
@@ -24,11 +28,36 @@ header {
     margin-left: 100px;
     }
 
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: khaki;
+}
+
+.works {
+  display: flex;
+  justify-content: center;
+  margin-top: 400px;
+  width: 400px;
+  height: 100px;
+  background-color: chartreuse;
+}
 
 .biography {
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 800px;
+  width: 400px;
+  height: 100px;
+  background-color: cyan;
 }
 
-
+.contacts {
+  display: flex;
+  justify-content: center;
+  margin-top: 800px;
+  width: 400px;
+  height: 100px;
+  background-color: brown;
+}
