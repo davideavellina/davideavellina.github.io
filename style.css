@@ -33,31 +33,39 @@ header {
   align-items: center;
   justify-content: center;
   background-color: khaki;
+  flex-flow: column;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 .works {
   display: flex;
   justify-content: center;
-  margin-top: 400px;
-  width: 400px;
-  height: 100px;
+  padding: 14px;
+  margin-top: 600px;
+  width: 600px;
   background-color: chartreuse;
+  border-radius: 6px;
 }
 
 .biography {
   display: flex;
   justify-content: center;
-  margin-top: 800px;
-  width: 400px;
-  height: 100px;
+  padding: 14px;
+  margin-top: 600px;
+  width: 600px;
   background-color: cyan;
+  flex-wrap: wrap;
+  border-radius: 6px;
 }
 
 .contacts {
   display: flex;
   justify-content: center;
-  margin-top: 800px;
-  width: 400px;
-  height: 100px;
+  padding: 14px;
+  margin-top: 600px;
+  width: 600px;
   background-color: brown;
+  border-radius: 6px;
+  margin-bottom: 200px;
 }
