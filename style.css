@@ -44,8 +44,8 @@ header {
   padding: 14px;
   margin-top: 600px;
   width: 600px;
-  background-color: chartreuse;
   border-radius: 6px;
+  background-color: rgba(110, 116, 35, 0.2);
 }
 
 .biography {
@@ -54,7 +54,7 @@ header {
   padding: 14px;
   margin-top: 600px;
   width: 600px;
-  background-color: cyan;
+  background-color: rgba(110, 116, 35, 0.2);
   flex-wrap: wrap;
   border-radius: 6px;
 }
@@ -65,7 +65,7 @@ header {
   padding: 14px;
   margin-top: 600px;
   width: 600px;
-  background-color: brown;
+  background-color: rgba(110, 116, 35, 0.2);
   border-radius: 6px;
   margin-bottom: 200px;
 }
