@@ -22,10 +22,14 @@ header a {
   color: black;
 }
 
+header a:hover {
+  color: brown;
+}
+
 .menu > li {
   display: inline;
   margin-right: 50px;
-  border-left: 1px solid gray;
+  border-left: 1px solid brown;
   padding-left: 40px;
 }
 
@@ -73,6 +77,10 @@ header a {
   font-family: 'Cinzel', serif;  
 }
 
+.works button:hover {
+  background-color: brown;
+}
+
 .works a {
   text-decoration: none;
   color: black;
@@ -100,3 +108,6 @@ header a {
   margin-bottom: 200px;
 }
 
+.contacts span {
+  color: brown;
+}
