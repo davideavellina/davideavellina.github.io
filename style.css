@@ -22,6 +22,10 @@ header a {
   color: black;
 }
 
+header a:hover {
+  color: brown;
+}
+
 .menu > li {
   display: inline;
   margin-right: 50px;
