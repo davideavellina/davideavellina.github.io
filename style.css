@@ -77,6 +77,10 @@ header a:hover {
   font-family: 'Cinzel', serif;  
 }
 
+.works button:hover {
+  background-color: brown;
+}
+
 .works a {
   text-decoration: none;
   color: black;
