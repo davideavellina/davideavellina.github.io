@@ -1,32 +1,37 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Cinzel Decorative', cursive;
-    background-color:goldenrod;
-    height: 80px;    
-    position: fixed;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-  } 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cinzel Decorative', cursive;
+  background-color:goldenrod;
+  height: 80px;    
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;  
+} 
+
+header a {
+  text-decoration: none;
+  color: black;
+}
 
 .menu > li {
-    display: inline;
-    margin-right: 50px;
-    border-left: 1px solid gray;
-    padding-left: 40px;
-    }
+  display: inline;
+  margin-right: 50px;
+  border-left: 1px solid gray;
+  padding-left: 40px;
+}
 
 .menu > li:first-of-type {
-    margin-left: 100px;
-    }
+  margin-left: 100px;
+}
 
 .container {
   display: flex;
@@ -35,7 +40,9 @@ header {
   background-color: khaki;
   flex-flow: column;
   font-size: 16px;
+  font-weight: 600;
   line-height: 26px;
+  font-family: 'Cinzel', serif;
 }
 
 .works {
@@ -45,7 +52,30 @@ header {
   margin-top: 600px;
   width: 600px;
   border-radius: 6px;
-  background-color: rgba(110, 116, 35, 0.2);
+  flex-wrap: wrap;
+  background-color: rgba(167, 177, 27, 0.2);
+}
+
+.works img {
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+  padding: 10px;
+}
+
+.works button {
+  background-color: goldenrod;
+  font-weight: bold;
+  border: 0px;
+  border-radius: 6px;
+  padding: 8px;
+  font-size: 20px;
+  font-family: 'Cinzel', serif;  
+}
+
+.works a {
+  text-decoration: none;
+  color: black;
 }
 
 .biography {
@@ -69,3 +99,4 @@ header {
   border-radius: 6px;
   margin-bottom: 200px;
 }
+
