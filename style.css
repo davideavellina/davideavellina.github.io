@@ -23,13 +23,13 @@ header a {
 }
 
 header a:hover {
-  color: brown;
+  color: darkred;
 }
 
 .menu > li {
   display: inline;
   margin-right: 50px;
-  border-left: 1px solid brown;
+  border-left: 1px solid darkred;
   padding-left: 40px;
 }
 
@@ -78,7 +78,9 @@ header a:hover {
 }
 
 .works button:hover {
-  background-color: brown;
+  background-color: darkred;
+  transition: 0.2s;
+  opacity: 0.6;
 }
 
 .works a {
@@ -109,5 +111,5 @@ header a:hover {
 }
 
 .contacts span {
-  color: brown;
+  color: darkred;
 }
