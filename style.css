@@ -114,7 +114,7 @@ header a:hover {
   color: darkred;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
   header {
     display: none;
   }
