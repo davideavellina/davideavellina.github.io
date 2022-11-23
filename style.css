@@ -113,3 +113,9 @@ header a:hover {
 .contacts span {
   color: darkred;
 }
+
+@media screen and (max-width: 600px) {
+  header {
+    display: none;
+  }
+}
