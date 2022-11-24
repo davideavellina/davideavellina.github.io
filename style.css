@@ -27,7 +27,7 @@ header a:hover {
 }
 
 .menu > li {
-  display: inline;
+  display: flex;
   margin-right: 50px;
   border-left: 1px solid darkred;
   padding-left: 40px;
