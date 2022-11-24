@@ -36,7 +36,9 @@ ul {
   padding-left: 40px;
 }
 
-
+.menu > li:first-of-type {
+  border: none;
+}
 
 .container {
   display: flex;
