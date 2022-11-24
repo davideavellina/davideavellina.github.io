@@ -119,10 +119,18 @@ header a:hover {
   .container {
     background-color: rgb(64, 187, 8);
   }
+  .menu > li {
+    border: 0px;
+    margin: 0px;
+  }
+
 }
 
 @media screen and (max-width: 1038px) {
   .container {
     background-color: aqua;
+    border: 0px;
   }
+
+  
 }
