@@ -118,10 +118,7 @@ ul {
 }
 
 
-@media screen and (max-width: 775px) {
-  .container {
-    background-color: rgb(64, 187, 8);
-  }
+@media screen and (max-width: 767px) {
   .menu > li {
     border: 0px;
     margin: 0px;
