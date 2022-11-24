@@ -118,13 +118,6 @@ ul {
 }
 
 
-@media screen and (max-width: 767px) {
-  .menu > li {
-    border: 0px;
-    margin: 0px;
-  }
-
-}
 
 @media screen and (max-width: 1038px) {
   header {
