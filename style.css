@@ -26,6 +26,9 @@ header a:hover {
   color: darkred;
 }
 
+ul {
+  display: flex;
+}
 .menu > li {
   display: inline;
   margin-right: 50px;
@@ -129,8 +132,22 @@ header a:hover {
 @media screen and (max-width: 1038px) {
   .container {
     background-color: aqua;
-    border: 0px;
+  } 
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
-
+  ul {
+   flex-direction: column;
+   align-items: center;
+  }
+  .menu > li {
+    border: 0px;
+    margin: 0px;
+  }
   
+  .menu > li:first-of-type {
+  margin-left: 0px;
+}
 }
