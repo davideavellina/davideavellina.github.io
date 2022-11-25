@@ -138,5 +138,8 @@ ul {
   .menu > li:first-of-type {
     margin-left: 0px;
   }
-  
+  header > div {
+    margin-top: 10px;
+  }
+
 }
