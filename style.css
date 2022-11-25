@@ -141,7 +141,7 @@ ul {
   .menu > li:first-of-type {
     margin-left: 0px;
   }
-  .menu > li:first-of-type {
+  .menu > li:last-of-type {
     margin-bottom: 10px;
   }
 }
