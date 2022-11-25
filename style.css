@@ -57,14 +57,12 @@ ul {
   justify-content: center;
   padding: 14px;
   margin-top: 500px;
-  width: 600px;
   border-radius: 6px;
   flex-wrap: wrap;
   background-color: rgba(167, 177, 27, 0.2);
 }
 
 .works img {
-  width: 600px;
   height: 400px;
   object-fit: contain;
   padding: 10px;
@@ -96,7 +94,6 @@ ul {
   justify-content: center;
   padding: 14px;
   margin-top: 500px;
-  width: 600px;
   background-color: rgba(110, 116, 35, 0.2);
   flex-wrap: wrap;
   border-radius: 6px;
@@ -107,7 +104,6 @@ ul {
   justify-content: center;
   padding: 14px;
   margin-top: 500px;
-  width: 600px;
   background-color: rgba(110, 116, 35, 0.2);
   border-radius: 6px;
   margin-bottom: 200px;
