@@ -1,0 +1,4 @@
+.menu > li:nth-child(1) {
+    background-color: darkred;
+    color: white;
+}
