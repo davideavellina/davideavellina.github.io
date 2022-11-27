@@ -54,6 +54,7 @@ ul {
 
 .works {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   padding: 14px;
   margin-top: 500px;
