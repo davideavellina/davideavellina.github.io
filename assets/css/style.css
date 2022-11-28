@@ -106,4 +106,9 @@ ul {
   .menu > li:last-of-type {
     margin-bottom: 10px;
   }
+
+  img.resize {
+    width:540px;
+    height: auto;
+}
 }
