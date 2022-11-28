@@ -54,34 +54,6 @@ ul {
 }
 
 
-.biography {
-  display: flex;
-  justify-content: center;
-  padding: 14px;
-  margin-top: 500px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: rgba(110, 116, 35, 0.2);
-  flex-wrap: wrap;
-  border-radius: 6px;
-}
-
-.contacts {
-  display: flex;
-  justify-content: center;
-  padding: 14px;
-  margin-top: 500px;
-  background-color: rgba(110, 116, 35, 0.2);
-  border-radius: 6px;
-  margin-bottom: 200px;
-}
-
-.contacts span {
-  color: darkred;
-}
-
-
-
 @media screen and (max-width: 1038px) {
   header {
     flex-direction: column;
@@ -110,6 +82,5 @@ ul {
 
   img {
     width:480px;
-    height: 400px;
   }
 }
