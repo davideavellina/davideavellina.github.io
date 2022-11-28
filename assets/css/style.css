@@ -52,43 +52,6 @@ ul {
   font-family: 'Cinzel', serif;
 }
 
-.works {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 14px;
-  margin-top: 500px;
-  border-radius: 6px;
-  flex-wrap: wrap;
-  background-color: rgba(167, 177, 27, 0.2);
-}
-
-.works img {
-  height: 400px;
-  object-fit: contain;
-  padding: 10px;
-}
-
-.works button {
-  background-color: rgb(218, 165, 32);
-  font-weight: bold;
-  border: 0px;
-  border-radius: 6px;
-  padding: 8px;
-  font-size: 20px;
-  font-family: 'Cinzel', serif;  
-  transition: 2s; 
-}
-
-.works button:hover {
-  background-color: darkred;
-  opacity: 0.6;
-}
-
-.works a {
-  text-decoration: none;
-  color: black;
-}
 
 .biography {
   display: flex;
