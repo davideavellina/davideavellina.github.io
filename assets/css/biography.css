@@ -1,3 +1,7 @@
+.menu > li:nth-child(3) a {
+    color: darkred;
+}
+
 .biography {
     display: flex;
     justify-content: center;
