@@ -1,0 +1,14 @@
+.contacts {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    margin-top: 500px;
+    background-color: rgba(110, 116, 35, 0.2);
+    border-radius: 6px;
+    margin-bottom: 200px;
+  }
+  
+  .contacts span {
+    color: darkred;
+  }
+  
