@@ -1,3 +1,7 @@
+.menu > li:nth-child(4) a {
+    color: darkred;
+}
+
 .contacts {
     display: flex;
     justify-content: center;
