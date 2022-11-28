@@ -1,0 +1,11 @@
+.biography {
+    display: flex;
+    justify-content: center;
+    padding: 14px;
+    margin-top: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(110, 116, 35, 0.2);
+    flex-wrap: wrap;
+    border-radius: 6px;
+  }
