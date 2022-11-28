@@ -1,3 +1,7 @@
 .menu > li:nth-child(1) a {
     color: darkred;
 }
+
+li a{
+    color: aqua;
+}
