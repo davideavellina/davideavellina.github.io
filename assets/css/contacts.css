@@ -16,3 +16,7 @@
     color: darkred;
   }
   
+  form{
+    display: flex;
+    flex-direction: column;
+  }
