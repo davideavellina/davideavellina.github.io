@@ -80,6 +80,7 @@ ul {
   }
 
   img {
-    width: 200px;
+    width: 280px;
+    height: fit-content;
   }
 }
