@@ -81,6 +81,6 @@ ul {
 
   img {
     width: 280px;
-    height: fit-content;
+    height: auto;
   }
 }
