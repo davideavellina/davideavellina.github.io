@@ -79,8 +79,12 @@ ul {
     margin-bottom: 10px;
   }
 
-  img {
+  .works img {
     width: 340px;
     height: auto;
+  }
+
+  .biography {
+    width: auto;
   }
 }
