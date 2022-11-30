@@ -30,7 +30,13 @@
 
   form button {
     font-size: larger;
+    font-family: 'Cinzel Decorative', cursive;  
     padding: 6px;
     margin: 20px;
-    font-family: 'Cinzel Decorative', cursive;
+    transition: 0.8s;
+  }
+
+  form button:hover {
+    transform: translateY(-20px);
+    box-shadow: 20px;
   }
