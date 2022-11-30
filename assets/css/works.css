@@ -8,7 +8,8 @@
     flex-direction: column;
     justify-content: center;
     padding: 14px;
-    margin-top: 500px;
+    margin-top: 400px;
+    margin-bottom: 400px;
     border-radius: 6px;
     flex-wrap: wrap;
     background-color: rgba(167, 177, 27, 0.2);
