@@ -22,21 +22,25 @@
   }
 
   form input {
+    background-color: goldenrod;
     margin: 10px;
     padding: 10px;
     font-family: 'Cinzel', serif;
+    border-radius: 6px;
 
   }
 
   form button {
+    background-color: goldenrod;
     font-size: larger;
     font-family: 'Cinzel Decorative', cursive;  
     padding: 6px;
     margin: 20px;
     transition: 0.8s;
+    border-radius: 6px;
   }
 
   form button:hover {
-    transform: translateY(-20px);
-    box-shadow: 20px;
+    transform: translateY(-8px);
+    box-shadow: 20px black;
   }
