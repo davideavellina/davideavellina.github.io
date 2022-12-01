@@ -88,8 +88,7 @@ header ul {
     scale: 0.5;
   }
   .works img {
-    width: 340px;
-    height: auto;
+    scale: 0.6;
   }
 
   .biography {
