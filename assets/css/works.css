@@ -2,6 +2,9 @@
     color: darkred;
 }
 
+.skills {
+  margin-bottom: 100px;
+}
 .Coding-Challenge {
   display: flex;
   flex-direction: column;
