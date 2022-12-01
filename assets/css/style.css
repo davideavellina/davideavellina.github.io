@@ -5,6 +5,7 @@
 }
 
 header {
+  z-index: 1;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +84,7 @@ header ul {
     width: 340px;
     height: 20px;
   }
-  
+
   .works img {
     width: 340px;
     height: auto;
