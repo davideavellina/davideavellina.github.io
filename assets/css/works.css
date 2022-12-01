@@ -55,5 +55,9 @@
 }
 
 .repository {
-  margin-top: 40px; 
+  margin-top: 40px;   
+}
+
+.repository a {
+  color: darkred;
 }
