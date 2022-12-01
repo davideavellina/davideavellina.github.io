@@ -26,7 +26,7 @@ header a:hover {
   color: darkred;
 }
 
-ul {
+header ul {
   display: flex;
 }
 .menu > li {
