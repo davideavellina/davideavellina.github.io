@@ -10,6 +10,8 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(167, 177, 27, 0.2);
+  padding: 20px;
+  border-radius: 6px;
 }
 
 .works {
@@ -51,3 +53,4 @@
   text-decoration: none;
   color: black;
 }
+
