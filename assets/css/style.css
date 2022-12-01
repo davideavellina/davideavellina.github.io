@@ -79,6 +79,11 @@ header ul {
     margin-bottom: 10px;
   }
 
+  .Loading {   
+    width: 340px;
+    height: 20px;
+  }
+  
   .works img {
     width: 340px;
     height: auto;
