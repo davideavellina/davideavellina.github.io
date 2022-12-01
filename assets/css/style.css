@@ -87,7 +87,7 @@ ul {
   .biography {
     width:auto;
   }
-  .contacts {
-    width: 400px;
+  .contacts form {
+    width: 320px;
   }
 }
