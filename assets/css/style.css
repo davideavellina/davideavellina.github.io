@@ -81,10 +81,12 @@ header ul {
   }
 
   .Loading {   
-    width: 340px;
-    height: 20px;
+    scale: 0.5;
   }
 
+  .subtitle h2 {
+    scale: 0.5;
+  }
   .works img {
     width: 340px;
     height: auto;
