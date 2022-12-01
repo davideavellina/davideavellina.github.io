@@ -87,4 +87,7 @@ ul {
   .biography {
     width:auto;
   }
+  .contacts {
+    width: 400px;
+  }
 }
