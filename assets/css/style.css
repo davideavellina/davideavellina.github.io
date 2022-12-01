@@ -86,5 +86,6 @@ ul {
 
   .biography {
     width:fit-content;
+    height: initial;
   }
 }
