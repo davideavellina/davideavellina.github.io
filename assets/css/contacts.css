@@ -38,9 +38,10 @@
     margin: 20px;
     transition: 0.8s;
     border-radius: 6px;
+    box-shadow: 0px 15px 10px -5px black;
   }
 
   form button:hover {
     transform: translateY(-8px);
-    box-shadow: 20px black;
+    box-shadow: 0px 20px 15px -10px black;
   }
