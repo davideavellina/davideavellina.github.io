@@ -91,6 +91,10 @@ header ul {
     scale: 0.6;
   }
 
+  .Coding-Challenge {
+    background-color: none;
+  }
+
   .biography {
     width:auto;
   }
