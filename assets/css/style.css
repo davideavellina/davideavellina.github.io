@@ -92,7 +92,7 @@ header ul {
   }
 
   .Coding-Challenge {
-    background-color: none;
+    background-color: unset;
   }
 
   .biography {
