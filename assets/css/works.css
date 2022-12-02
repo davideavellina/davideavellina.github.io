@@ -60,6 +60,7 @@
 
 .repository a {
   color: darkred;
+  transition: 0.8s;
 }
 
 .repository a:hover {
