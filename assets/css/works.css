@@ -28,7 +28,6 @@
 
 .works img {
   height: 400px;
-  object-fit: contain;
   padding: 10px;
 }
 
