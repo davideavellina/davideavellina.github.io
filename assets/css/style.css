@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+.logo {
+  margin-right: 180px;
+  scale: 2;
+}
+
 header {
   z-index: 1;
   display: flex;
@@ -55,6 +60,9 @@ header ul {
 
 
 @media screen and (max-width: 1038px) {
+  .logo {
+    display: none;
+  }
   header {
     flex-direction: column;
     height: auto;
