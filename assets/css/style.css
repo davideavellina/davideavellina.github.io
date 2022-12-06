@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Cinzel Decorative', cursive;
+  background-color:goldenrod;
+  height: 80px;    
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;  
+} 
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+
+header a:hover {
+  color: darkred;
+}
+
+header ul {
+  display: flex;
+}
+.menu > li {
+  display: inline;
+  margin-right: 50px;
+  border-left: 1px solid darkred;
+  padding-left: 40px;
+}
+
+.menu > li:first-of-type {
+  margin-left: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: khaki;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+  font-family: 'Cinzel', serif;
+}
+
+
+@media screen and (max-width: 1038px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+  ul {
+   flex-direction: column;
+   align-items: center; 
+  }
+  .menu > li {
+    border-bottom: 1px solid darkred;
+    border-left: 0;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+  } 
+  header > div {
+    margin-top: 10px;
+  }
+  .menu > li:first-of-type {
+    margin-left: 0px;
+  }
+  .menu > li:last-of-type {
+    margin-bottom: 10px;
+  }
+
+  .Loading {   
+    scale: 0.5;
+  }
+
+  .subtitle h2 {
+    scale: 0.8;
+  }
+  .works img {
+    scale: 0.6;
+  }
+
+  .Coding-Challenge {
+    background-color: unset;
+  }
+
+  .biography {
+    width:auto;
+  }
+  .contacts form {
+    width: 320px;
+  }
+}

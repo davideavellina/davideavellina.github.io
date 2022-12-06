@@ -1,0 +1,63 @@
+.menu > li:nth-child(1) a {
+    color: darkred;
+}
+
+.container {
+    height: 200vh;
+    justify-content: normal;
+}
+
+.Loading {
+    position: relative;
+    display: inline-block;
+    margin-bottom: 60px;
+    margin-top: 400px;
+    width: 600px;
+    height: 40px;
+    background: #f1f1f1;
+    box-shadow: 0px 11px 18px 11px rgb(120 114 112 / 96%);
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  
+  .Loading:after {
+    content: '';
+    position: absolute;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, .2);
+    animation: load 5s infinite;
+  }
+  
+  @keyframes load {
+    0% {
+      width: 0;
+      background: #b3f00cf3;
+    }
+    
+    25% {
+      width: 40%;
+      background: #fffb27;
+    }
+    
+    50% {
+      width: 60%;
+      background: #ee801a;
+    }
+    
+    75% {
+      width: 75%;
+      background: #ff3511;
+    }
+    
+    100% {
+      width: 100%;
+      background: #cc265d;
+    }
+  }
+  
+  @keyframes pulse {
+    from { width: 0% }
+       to   { width: 100% }
+  }
+  
