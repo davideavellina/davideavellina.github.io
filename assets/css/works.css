@@ -60,7 +60,8 @@
 }
 
 .repository img {
-  width: 100px;
+  width: 80px;
+  padding: 10px;
   height: auto;
 }
 
