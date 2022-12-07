@@ -58,6 +58,10 @@
   align-items: center;
   margin-top: 40px;   
 }
+.repository img {
+  width: 100px;
+  height: auto;
+}
 
 .repository a {
   transition: 0.8s;
