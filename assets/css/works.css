@@ -53,11 +53,12 @@
   color: black;
 }
 
-.repository {
+.repository p {
   display: flex;
   align-items: center;
   margin-top: 40px;   
 }
+
 .repository img {
   width: 100px;
   height: auto;
