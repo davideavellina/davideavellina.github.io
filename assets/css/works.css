@@ -1,6 +1,9 @@
   .menu > li:nth-child(2) a {
     color: darkred;
 }
+.repository {
+  margin-bottom: 120px;
+}
 
 .repository p {
   display: flex;
@@ -25,6 +28,7 @@
 .skills {
   margin-bottom: 100px;
 }
+
 .Coding-Challenge {
   display: flex;
   flex-direction: column;
@@ -40,7 +44,7 @@
   flex-direction: column;
   justify-content: center;
   padding: 14px;
-  margin-top: 400px;
+  margin-top: 260px;
   margin-bottom: 400px;
   border-radius: 6px;
   flex-wrap: wrap;  
