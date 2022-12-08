@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-.logo {
+.logo img {
   margin-right: 200px;
   scale: 2;
+  border-radius: 2px;
 }
 
 header {
