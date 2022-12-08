@@ -34,7 +34,7 @@
   flex-direction: column;
   align-items: center;
   background-color: rgba(167, 177, 27, 0.2);
-  padding: 20px;
+  padding: 10px;
   border-radius: 6px;
 }
 
@@ -51,8 +51,8 @@
 }
 
 .works .Coding-Challenge img {
-  height: 400px;
-  padding: 10px;
+  height: 200px;
+  margin-bottom: 20px;
 }
 
 .works button {
