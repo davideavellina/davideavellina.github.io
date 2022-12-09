@@ -4,9 +4,10 @@
   box-sizing: border-box;
 }
 
-.logo {
+.logo img {
   margin-right: 200px;
   scale: 2;
+  border-radius: 2px;
 }
 
 header {
@@ -60,7 +61,7 @@ header ul {
 
 
 @media screen and (max-width: 1038px) {
-  .logo {
+  .logo img {
     display: none;
   }
   header {
@@ -94,10 +95,6 @@ header ul {
 
   .subtitle h2 {
     scale: 0.8;
-  }
-
-  .works .Coding-Challenge img {
-    scale: 0.6;
   }
 
   .Coding-Challenge {
